@@ -38,7 +38,7 @@
 
 ### 🔹 1. Clonar el repositorio  
 sh
-git clone https://github.com/TuUsuario/igris.git
+git clone [https://github.com/TuUsuario/igris.git](https://github.com/TuUsuario/igris.git)
 cd igris
   
 
