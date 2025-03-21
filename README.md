@@ -1,4 +1,4 @@
-# CodePrep
+# CodePrep.
 
 ![Image](https://github.com/user-attachments/assets/ecf927ab-7d3f-42fc-a857-63b36eafd665)
 
