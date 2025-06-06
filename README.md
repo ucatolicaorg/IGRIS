@@ -2,37 +2,46 @@
 
 ![Image](https://github.com/user-attachments/assets/ecf927ab-7d3f-42fc-a857-63b36eafd665)
 
-📚 IGRIS - Plataforma Inteligente de Crecimiento Académico  
+📚 IGRIS - Plataforma Inteligente de Crecimiento Académico
+📌 Descripción del Proyecto
+IGRIS es una plataforma educativa diseñada para estudiantes de Ingeniería de Sistemas. Su enfoque es el aprendizaje autodirigido mediante desafíos de programación, perfiles inteligentes, retroalimentación personalizada y seguimiento del progreso. Combina gamificación, inteligencia adaptativa y analítica académica en un entorno accesible y dinámico.
 
-## 📌 Descripción del Proyecto  
-*IGRIS* es un ecosistema digital diseñado para estudiantes de Ingeniería de Sistemas, enfocado en el aprendizaje autodirigido y el desarrollo de habilidades técnicas a través de análisis inteligente, personalización del estudio y dinámicas de mejora continua.  
+🎯 Objetivos del Proyecto
+🧠 Aprendizaje adaptativo: La plataforma ajusta la dificultad de los problemas según el rendimiento del usuario.
 
-## 🎯 Objetivos del Proyecto  
-- 🧠 *Aprendizaje adaptativo*: La plataforma ajusta la dificultad de los ejercicios en tiempo real según el rendimiento del usuario.  
-- 🏗 *Construcción de rutas de aprendizaje personalizadas* basadas en metas y desempeño previo.  
-- 🎤 *Interacción por voz* con asistentes virtuales que explican conceptos y ayudan a resolver problemas.  
-- 🔄 *Entrenamiento en resolución de problemas en tiempo limitado* para mejorar la toma de decisiones bajo presión.  
-- 📊 *Reportes detallados* sobre evolución académica, áreas fuertes y puntos de mejora.  
+🧩 Rutas personalizadas: Se construyen trayectorias de aprendizaje según metas, desempeño y áreas por reforzar.
 
-## ✨ Características Principales  
-- 🔍 *Modo desafío contra IA*: Compite contra un bot inteligente en resolución de problemas.  
-- 🎭 *Perfiles dinámicos* que evolucionan según el estilo de aprendizaje del usuario.  
-- 🏅 *Misiones diarias y recompensas especiales* que fomentan la constancia y el aprendizaje diario.  
-- 🛠 *Talleres interactivos en vivo* con feedback en tiempo real de expertos en programación y matemáticas.  
-- 🔧 *Generador automático de ejercicios personalizados* según historial de errores y respuestas.  
-- 📡 *Modo offline* que permite practicar sin conexión y sincroniza el progreso al volver en línea.  
-****
----
+🎤 Asistencia virtual por voz (futuro): Se plantea la integración de un asistente que brinde explicaciones personalizadas por voz.
 
-## 🛠️ Tecnologías Utilizadas  
-- *Frontend:* Next.js con TypeScript  
-- *Backend:* FastAPI con Python  
-- *Base de Datos:* PostgreSQL con GraphQL  
-- *Autenticación:* OAuth 2.0 + WebAuthn (autenticación sin contraseña)  
-- *Inteligencia Artificial:* Modelos de aprendizaje automático para análisis del rendimiento  
-- *Infraestructura:* Docker y Kubernetes para despliegue escalable  
+⏱️ Entrenamiento contrarreloj: Los estudiantes resuelven problemas en tiempo limitado para mejorar su agilidad mental.
 
----
+📊 Análisis académico: Reportes de evolución, fortalezas, debilidades y logros alcanzados.
+
+✨ Características Principales
+🔍 Modo desafío vs IA (futuro): El estudiante compite contra un bot inteligente que resuelve problemas en paralelo.
+
+🎭 Perfiles dinámicos: Cada usuario posee un perfil que evoluciona con su desempeño y estilo de aprendizaje.
+
+🏅 Misiones diarias y recompensas: Incentivos para mantener la constancia y el progreso diario.
+
+🧑‍💻 Maratones de programación: Retos en grupo con rankings, calificación manual, retroalimentación y resultados por tiempo.
+
+🔧 Generador de ejercicios personalizados: Basado en errores frecuentes y respuestas anteriores.
+
+📶 Modo offline (planeado): Permitirá practicar sin conexión y sincronizar el progreso automáticamente al reconectarse.
+
+🛠️ Tecnologías Utilizadas
+Frontend: React.js con diseño responsivo y estilo personalizado (sin Tailwind).
+
+Backend: FastAPI con Python, estructurado en rutas organizadas para usuarios, maratones y resultados.
+
+Base de datos: MongoDB local (con opción a migrar a Atlas en producción).
+
+Autenticación: Validación por username y contraseña con cifrado (bcrypt), con sesión persistente.
+
+Gamificación: Logros desbloqueables, retroalimentación motivacional y rankings.
+
+Infraestructura: Despliegue en entorno local, con opción a contenerizar vía Docker.
 
 ## 🚀 Instalación y Configuración  
 
